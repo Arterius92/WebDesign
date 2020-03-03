@@ -1,0 +1,24 @@
+$white: #f6f6f6;
+$yellow: #ffea00;
+$grey: #414146;
+$dark-grey: #424147;
+$black: #000;
+
+$width: 1635px;
+$content-width: 1395px;
+
+@font-face {
+    font-family: 'Code-Light';
+    src: url('../fonts/code_light/CODE_Light.otf');
+}
+@font-face {
+    font-family: 'Century-Gothic';
+    src: url('../fonts/CenturyGothic.ttf');
+}
+
+@mixin flex($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: wrap;
+}
