@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AASA,UAAU,CACN,WAAW,CAAE,YAAY,CACzB,GAAG,CAAE,yCAAyC,CAElD,UAAU,CACN,WAAW,CAAE,gBAAgB,CAC7B,GAAG,CAAE,iCAAiC",
+    "mappings": "AASA,UAAU,CACR,WAAW,CAAE,YAAY,CACzB,GAAG,CAAE,yCAAyC,CAEhD,UAAU,CACR,WAAW,CAAE,gBAAgB,CAC7B,GAAG,CAAE,iCAAiC",
     "sources": [
         "../scss/vars.scss"
     ],

@@ -8,17 +8,17 @@ $width: 1635px;
 $content-width: 1395px;
 
 @font-face {
-    font-family: 'Code-Light';
-    src: url('../fonts/code_light/CODE_Light.otf');
+  font-family: 'Code-Light';
+  src: url('../fonts/code_light/CODE_Light.otf');
 }
 @font-face {
-    font-family: 'Century-Gothic';
-    src: url('../fonts/CenturyGothic.ttf');
+  font-family: 'Century-Gothic';
+  src: url('../fonts/CenturyGothic.ttf');
 }
 
 @mixin flex($jc, $ai) {
-    display: flex;
-    justify-content: $jc;
-    align-items: $ai;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-wrap: wrap;
 }
