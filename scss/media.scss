@@ -5,6 +5,8 @@
   .portfolio {
     .work {
       .work-gallery {
+        margin-left: 10px;
+        margin-right: 10px;
         justify-content: center;
       }
     }
@@ -47,10 +49,18 @@
 @media (max-width: 1200px) {
   .portfolio {
     .container {
-      margin-bottom: 30px;
+      margin: 30px 10px;
       .specialize {
-        margin: 3%;
+        margin: 10px;
       }
+    }
+  }
+}
+
+@media (max-width: 1060px) {
+  .portfolio {
+    .container {
+      justify-content: space-evenly;
     }
   }
 }
@@ -117,6 +127,46 @@
       }
     }
   }
+  .portfolio {
+    margin-top: 50px;
+    h2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .container {
+      margin-top: 30px;
+    }
+    .work {
+      margin-top: 45px;
+    }
+    .clients {
+      margin-top: 45px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    height: 500px;
+    .home-text {
+      h1 {
+        span {
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+      p {
+        span {
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 693px) {
@@ -124,7 +174,7 @@
     .container {
       .menu {
         width: 100%;
-        margin: 10px;
+        margin: 0 10px 0;
         ul {
           flex-direction: column;
           display: none;
@@ -150,25 +200,102 @@
       }
     }
   }
-
   .mini-menu {
     display: block;
-    margin: 0;
+    margin-right: 10px;
   }
+  .home {
+    .home-text {
+      top: 80px;
+      left: 50px;
+    }
+  }
+}
 
+@media (max-width: 651px) {
+  footer {
+    ul {
+      justify-content: space-evenly;
+      li {
+        margin: 2%;
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .information {
+    .container {
+      .wrap-3 {
+        flex-wrap: wrap;
+        .contact {
+          margin-right: 0;
+          width: 100%;
+        }
+        .follow-us {
+          width: 100%;
+          margin-bottom: 50px;
+          form {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
   .home {
     height: 500px;
     .home-text {
       h1 {
         span {
-          font-size: 40px;
-          line-height: 50px;
+          font-size: 25px;
+          line-height: 30px;
         }
       }
       p {
         span {
-          font-size: 20px;
-          line-height: 30px;
+          font-size: 15px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+  .portfolio {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 17px;
+      line-height: 20px;
+    }
+    .work {
+      .work-gallery {
+        .trip-img {
+          overflow: hidden;
+        }
+      }
+    }
+  }
+  .information {
+    .container {
+      .wrap-2 {
+        margin-right: 0;
+        .tweet {
+          .twitter-block {
+            p {
+              line-height: 20px;
+            }
+          }
+        }
+        .socials {
+          p {
+            width: 100%;
+          }
         }
       }
     }

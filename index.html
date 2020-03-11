@@ -129,79 +129,39 @@
             voluptas atque nobis doloribus est neque excepturi, assumenda
             voluptate non voluptatibus!
           </p>
-          <a href="#">Show All /</a>
-          <a href="#">Web development /</a>
-          <a href="#">Web design /</a>
-          <a href="#">graphic design</a>
+          <a href="#" class="show-gallery">Show All /</a>
+          <a href="#" class="show-gallery">Web development /</a>
+          <a href="#" class="show-gallery">Web design /</a>
+          <a href="#" class="show-gallery">graphic design</a>
           <div class="work-gallery">
-            <a
-              href="img/Portfolio work 1.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 1.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 1.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 2.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 2.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 2.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 3.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 3.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 3.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 4.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 4.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 4.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 5.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 5.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 5.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 6.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 6.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 6.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 7.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 7.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 7.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 8.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 8.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 8.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 9.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 9.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 9.jpg" alt="Portfolio" />
             </a>
-            <a
-              href="img/Portfolio work 10.jpg"
-              data-fancybox="gallery"
-              class="trip-img"
-            >
+            <a href="img/Portfolio work 10.jpg" data-fancybox="gallery" class="trip-img">
               <img src="img/Portfolio work 10.jpg" alt="Portfolio" />
             </a>
           </div>
@@ -223,8 +183,6 @@
               <img src="img/Client 6.jpg" alt="" />
               <img src="img/Client 7.jpg" alt="" />
               <img src="img/Client 8.jpg" alt="" />
-              <img src="img/Client 1.jpg" alt="" />
-              <img src="img/Client 2.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -402,6 +360,7 @@
     <script>
       $('.slider').owlCarousel({
         loop: true,
+        center: true,
         margin: 40,
         autoplay: true,
         autoplayTimeout: 3000,
@@ -412,24 +371,28 @@
         dots: false,
         responsive: {
           320: {
-            items: 1
+            items: 2
           },
           420: {
             items: 3,
-            margin: 15,
-            mergeFit: true
+            margin: 15
+          },
+          580: {
+            items: 4,
+            margin: 15
           },
           768: {
             items: 5,
-            margin: 15,
-            mergeFit: true
+            margin: 15
           },
           1024: {
             items: 6,
-            margin: 30
+            margin: 30,
+            center: false
           },
           1440: {
-            items: 8
+            items: 8,
+            center: false
           }
         }
       });
