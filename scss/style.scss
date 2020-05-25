@@ -352,7 +352,7 @@ header {
           border: none;
           cursor: pointer;
           z-index: 99;
-          background: $black url('/img/Left_arrow.png') no-repeat 13px;
+          background: $black url('../img/Left_arrow.png') no-repeat 13px;
           position: absolute;
           top: 0;
           left: 0;
@@ -367,7 +367,7 @@ header {
           border: none;
           cursor: pointer;
           z-index: 99;
-          background: $black url('/img/Right_arrow.png') no-repeat 15px;
+          background: $black url('../img/Right_arrow.png') no-repeat 15px;
           position: absolute;
           top: 0;
           right: 0;
